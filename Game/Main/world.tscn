@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bpcydkt0qhl8c"]
+
+[ext_resource type="Texture2D" uid="uid://l3n021yi0fyo" path="res://Assets/Environment/dirt.png" id="1_epeik"]
+
+[node name="World" type="Node2D" unique_id=1549251422]
+
+[node name="Ground" type="Sprite2D" parent="." unique_id=1473098742]
+texture_repeat = 2
+texture = ExtResource("1_epeik")
+region_enabled = true
+region_rect = Rect2(-2099.4653, -1052.7998, 4414.7026, 2268.4243)
