@@ -12,4 +12,4 @@ region_enabled = true
 region_rect = Rect2(-2099.4653, -1052.7998, 4414.7026, 2268.4243)
 
 [node name="Tank" parent="." unique_id=640536007 instance=ExtResource("2_e8vrx")]
-position = Vector2(438, 245)
+position = Vector2(540, 312)
