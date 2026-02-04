@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bpcydkt0qhl8c"]
 
 [ext_resource type="Texture2D" uid="uid://l3n021yi0fyo" path="res://Assets/Environment/dirt.png" id="1_epeik"]
+[ext_resource type="PackedScene" uid="uid://it42gx4m3hv8" path="res://Game/Tank/tank.tscn" id="2_e8vrx"]
 
 [node name="World" type="Node2D" unique_id=1549251422]
 
@@ -9,3 +10,6 @@ texture_repeat = 2
 texture = ExtResource("1_epeik")
 region_enabled = true
 region_rect = Rect2(-2099.4653, -1052.7998, 4414.7026, 2268.4243)
+
+[node name="Tank" parent="." unique_id=640536007 instance=ExtResource("2_e8vrx")]
+position = Vector2(438, 245)
