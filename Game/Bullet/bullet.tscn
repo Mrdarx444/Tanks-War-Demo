@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://c1vuc4msgcx7f"]
+
+[ext_resource type="Texture2D" uid="uid://dckfkplrpvwlc" path="res://Assets/Bullets/bulletBeigeSilver.png" id="1_fj0k8"]
+[ext_resource type="Script" uid="uid://cyuv3jp2rgews" path="res://Game/Bullet/bullet.gd" id="1_ld7d5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ld7d5"]
+radius = 6.0
+height = 26.0
+
+[node name="Bullet" type="CharacterBody2D" unique_id=340980701]
+collision_layer = 2
+collision_mask = 6
+script = ExtResource("1_ld7d5")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1837592700]
+rotation = 1.5707964
+texture = ExtResource("1_fj0k8")
+
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=1764837153]
+rotation = -1.5707964
+shape = SubResource("CapsuleShape2D_ld7d5")
+
+[node name="LifeTimer" type="Timer" parent="." unique_id=316994590]

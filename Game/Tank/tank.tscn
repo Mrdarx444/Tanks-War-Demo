@@ -7,7 +7,8 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m2anm"]
 size = Vector2(70, 74.5)
 
-[node name="Tank" type="CharacterBody2D" unique_id=640536007]
+[node name="Tank" type="CharacterBody2D" unique_id=640536007 groups=["Tanks"]]
+collision_mask = 5
 motion_mode = 1
 script = ExtResource("1_m2anm")
 
