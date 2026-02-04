@@ -16,6 +16,9 @@ texture = ExtResource("1_epeik")
 region_enabled = true
 region_rect = Rect2(-2099.4653, -1052.7998, 4414.7026, 2268.4243)
 
+[node name="Traks" type="Node2D" parent="." unique_id=2123624490]
+unique_name_in_owner = true
+
 [node name="ProjectilesContainer" type="Node2D" parent="." unique_id=1743180687]
 unique_name_in_owner = true
 
@@ -51,14 +54,14 @@ shape = SubResource("RectangleShape2D_xqici")
 
 [node name="Wall3" type="ColorRect" parent="Walls" unique_id=607360839]
 custom_minimum_size = Vector2(1000, 60)
-offset_left = 1086.9615
-offset_top = -47.999996
-offset_right = 2086.9614
-offset_bottom = 12.000004
+offset_left = 1153.9617
+offset_top = 336.0
+offset_right = 2153.9617
+offset_bottom = 396.0
 rotation = 2.0943952
 
 [node name="Collision3" type="CollisionShape2D" parent="Walls" unique_id=266508100]
-position = Vector2(810.9615, 370)
+position = Vector2(877.96155, 754)
 rotation = 2.0943952
 scale = Vector2(0.99999994, 0.99999994)
 shape = SubResource("RectangleShape2D_xqici")

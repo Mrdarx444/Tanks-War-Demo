@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cyrpfu7eiu34f"]
+
+[ext_resource type="Texture2D" uid="uid://do43vir427sap" path="res://Assets/Tanks/tracksSmall.png" id="1_b8yw6"]
+[ext_resource type="Script" uid="uid://lu3jlgob6uju" path="res://Game/Tank/tracks.gd" id="2_wr2jt"]
+
+[node name="TracksSmall" type="Sprite2D" unique_id=1864262816]
+rotation = -1.5707964
+texture = ExtResource("1_b8yw6")
+vframes = 12
+script = ExtResource("2_wr2jt")
